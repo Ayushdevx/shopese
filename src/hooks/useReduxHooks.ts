@@ -46,15 +46,15 @@ export const useCart = () => {
   // Cart actions
   const addToCart = (product: any, quantity = 1) => {
     dispatch({
-      type: 'cart/addItem',
-      payload: { ...product, quantity }
+      type: 'cart/addToCart',
+      payload: typeof product === 'string' ? product : { ...product, quantity }
     });
     toast.success('Added to cart!');
   };
 
   const removeFromCart = (productId: string) => {
     dispatch({
-      type: 'cart/removeItem',
+      type: 'cart/removeFromCart',
       payload: productId
     });
     toast.success('Removed from cart');

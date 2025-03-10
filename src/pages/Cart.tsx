@@ -18,7 +18,7 @@ const Cart = () => {
 
   const handleRemoveFromCart = (itemId: string) => {
     dispatch({
-      type: 'cart/removeItem',
+      type: 'cart/removeFromCart',
       payload: itemId
     });
     toast.success('Item removed from cart');
