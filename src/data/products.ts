@@ -1,0 +1,95 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: "Men's Classic White T-Shirt",
+    price: 29.99,
+    category: "men",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800",
+    description: "Premium cotton classic fit t-shirt with superior comfort and durability. Perfect for everyday wear.",
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["white", "black", "navy"],
+    brand: "Essential Wear",
+    rating: 4.5,
+    reviews: 128,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 2,
+    name: "Women's Denim Jacket",
+    price: 89.99,
+    category: "women",
+    image: "https://images.unsplash.com/photo-1544642899-f0d6e5f6ed6f?w=800",
+    description: "Vintage style denim jacket with modern details. Features distressed finish and premium buttons.",
+    sizes: ["XS", "S", "M", "L"],
+    colors: ["blue", "black", "light-wash"],
+    brand: "Urban Style",
+    rating: 4.8,
+    reviews: 89,
+    inStock: true,
+    discount: 15
+  },
+  {
+    id: 3,
+    name: "Unisex Hoodie",
+    price: 59.99,
+    category: "unisex",
+    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
+    description: "Comfortable cotton blend hoodie perfect for any season. Features kangaroo pocket and adjustable hood.",
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["gray", "black", "navy", "burgundy"],
+    brand: "Comfort Plus",
+    rating: 4.6,
+    reviews: 156,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 4,
+    name: "Women's Summer Dress",
+    price: 79.99,
+    category: "women",
+    image: "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=800",
+    description: "Floral print summer dress with adjustable straps. Light and breezy fabric perfect for warm days.",
+    sizes: ["XS", "S", "M", "L"],
+    colors: ["floral-blue", "floral-pink", "solid-white"],
+    brand: "Summer Breeze",
+    rating: 4.7,
+    reviews: 92,
+    inStock: true,
+    discount: 20
+  },
+  {
+    id: 5,
+    name: "Men's Slim Fit Jeans",
+    price: 69.99,
+    category: "men",
+    image: "https://images.unsplash.com/photo-1542272454315-4c01d7abdf4a?w=800",
+    description: "Premium denim slim fit jeans with stretch comfort. Perfect balance of style and comfort.",
+    sizes: ["30x32", "32x32", "34x32", "36x32"],
+    colors: ["dark-blue", "light-blue", "black"],
+    brand: "Denim Co",
+    rating: 4.4,
+    reviews: 167,
+    inStock: true,
+    discount: 0
+  },
+  {
+    id: 6,
+    name: "Unisex Sneakers",
+    price: 99.99,
+    category: "unisex",
+    image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800",
+    description: "Classic canvas sneakers with modern comfort technology. Versatile design for any outfit.",
+    sizes: ["US 6", "US 7", "US 8", "US 9", "US 10"],
+    colors: ["white", "black", "red", "blue"],
+    brand: "StreetWalk",
+    rating: 4.9,
+    reviews: 231,
+    inStock: false,
+    discount: 10
+  }
+  
+];
